@@ -5,7 +5,7 @@ public class Mobil extends Kendaraan
     public String nama;
 
     public void setNama(String nama){
-        System.out.println(jumlahRoda);
+        System.out.println(super.getJumlahRoda());
         this.nama = nama;
     }
 
@@ -14,7 +14,7 @@ public class Mobil extends Kendaraan
     }
 
     public void setNama(){
-        System.out.println(jumlahRoda);
+        System.out.println(super.getJumlahRoda());
         this.nama = "Mitsubitsi" ;
     }
 
